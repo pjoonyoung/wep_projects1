@@ -1,0 +1,52 @@
+header {
+    height:100px;
+    position:relative;
+}
+
+header #logo {
+    position:absolute;
+    top:10px;
+    left:20px;
+}
+
+header #top_menu {
+    position:absolute;
+    top:10px;
+    left:770px;
+}
+
+header #main_menu {
+    width:780px;
+    height:40px;
+    background-image:url("../img/main_menu_bg.png");
+    background-repeat:no-repeat; /* 배경이미지 반복제거 */
+    position:absolute;
+    top:40px;
+    left:210px;
+}
+
+header #main_menu li {
+    display:inline-block;
+    margin:10px 31px 0 51px;
+    font-size:13px;
+}
+
+header #main_menu a:link {
+    text-decoration:none;
+    color:#ffffff;
+}/* 하이퍼링크 적용된 텍스트가 흰색으로 표시되고 밑줄이 삭제 */
+
+header #main_menu a:hover {
+    text-decoration:none;
+    color:#ffff00;
+}/* 하이퍼링크 적용된 마우스포인터가 올라올때 텍스트가 노란색으로 표시 */
+
+header #main_menu a:visited {
+    text-decoration:none;
+    color:#ffffff;
+}/* 하이퍼링크 적용된 텍스트가 방문의 된 후 계속 흰색으로 표시 */
+
+header #main_menu a:active {
+    text-decoration:none;
+    color:#ffffff;
+}/* 하이퍼링크 적용된 텍스트가 클릭되었을때 순간 흰색으로 표시 */

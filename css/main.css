@@ -1,0 +1,91 @@
+/* 메인컨텐츠 main css */
+
+main {
+    width:770px;
+    float:right;
+}
+
+main #notice_free_youtube {
+    height:250px;
+    position:relative;
+    margin:10px 0 0 0;
+}
+/* 공지사항 */
+main #notice {
+    width:370px;
+    position:absolute;
+}
+
+main .latest_title {
+    padding:0 0 3px 0;
+    border-bottom:solid 1px #cccccc;
+}
+
+main .latest_title .latest_img {
+    float:left;
+}
+
+main .latest_title .more {
+    float:right;
+}
+
+main .latest_content .book_image {
+    float:left;
+    margin:10px 0 0 20px;
+}
+
+main .latest_content .list {
+    float:right;
+}
+
+main .latest_content .list div {
+    float:left;
+}
+
+main .latest_content .list .subject {
+    width:170px;
+}
+
+main .latest_content li {
+    padding:10px 0 10px 0;
+}
+
+/* 공지사항 */
+main #free {
+    /* border:solid 1px red; */
+    width:370px;
+    position:absolute;
+    top:120px;
+}
+
+/* youtube 동영상 */
+main #youtube {
+    width:370px;
+    position:absolute;
+    left:390px;
+    /* border:solid 1px blue; */
+}
+
+main #youtube_img {
+    margin:10px 0 0 60px;
+}
+
+/* 포토 갤러리 */
+main #gallery_box {
+    width:750px;
+    height:200px;
+    margin:10px 0 0 10px;
+    border-radius:10px;
+    box-shadow:2px 2px 5px #dddddd;
+    border:solid 1px #cccccc;
+}
+
+main #gallery_list {
+    padding:25px 0 0 17px;
+}
+
+#gallery .items{
+    text-align:center;
+    margin:0 0 0 40px;
+    float:left;
+}
