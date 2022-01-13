@@ -1,0 +1,69 @@
+/** 게시판 글보기 board_view.css **/
+main table {
+    border-collapse:collapse; /* 표의 테두리와 셀 테두리 사이의 간격을 제거*/
+    margin:0 auto;
+    width:100%;
+}
+
+main #board_title {
+    margin-top:20px;
+    padding-bottom:5px;
+    border-bottom:solid 1px #cccccc;
+}
+
+main table th {
+    background-color:#eeeeee;
+    border-top:solid 2px #aaaaaa;
+    height:30px;
+}
+
+main #buttons {
+    text-align:right;
+    margin:10px 10px 0 0 ;
+}
+
+main table .col1 {
+    background-color:#eeeeee;
+}
+
+main table .col1 textarea {
+    width:500px;
+    height:76px;
+}
+
+main table .content_view {
+    padding:10px;
+}
+
+main table #subject_col1 {
+    text-align:left;
+}
+
+main table #subject_col2 {
+    margin-left:220px;
+    text-align:right;
+}
+
+main table #comment_box {
+    position:relative;
+    width:760px;
+    height:100px;
+}
+
+main table #title_comment {
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+main table #comment_box textarea {
+    position:absolute;
+    top:10px;
+    left:150px;
+}
+
+main table #comment_box #ok_ripple {
+    position:absolute;
+    top:10px;
+    left:660px;
+}
