@@ -32,3 +32,8 @@ a:hover {
     text-decoration:underline;
     color:#000000;
 }
+
+a:visited {
+    text-decoration:none;
+    color:#000000;
+}/* 하이퍼링크 적용된 텍스트가 방문의 된 후 계속 흰색으로 표시 */
